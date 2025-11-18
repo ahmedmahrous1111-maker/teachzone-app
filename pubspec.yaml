@@ -1,0 +1,69 @@
+name: teachzone_app
+description: TeachZone - Educational Platform for Saudi and Egyptian Curriculums
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase Core
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.20.0
+  cloud_firestore: ^4.17.5
+  firebase_storage: ^11.7.7
+  
+  # Image Picker & Permissions
+  image_picker: ^1.2.0
+  permission_handler: ^11.0.1
+  
+  # State Management
+  provider: ^6.1.5
+  
+  # HTTP Requests
+  http: ^1.5.0
+  
+  # Cached Network Image
+  cached_network_image: ^3.4.0
+  
+  # Path Provider
+  path_provider: ^2.1.5
+  
+  # Shared Preferences
+  shared_preferences: ^2.5.3
+  
+  # Intl for localization
+  intl: ^0.18.1
+
+  # URL Launcher
+  url_launcher: ^6.1.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ⭐⭐ Assets - تم التعديل هنا ⭐⭐
+  assets:
+    - assets/images/appface.jpeg
+
+  # Fonts (ممكن تضيفهم لاحقاً)
+  # fonts:
+  #   - family: Tajawal
+  #     fonts:
+  #       - asset: assets/fonts/Tajawal-Regular.ttf
+  #       - asset: assets/fonts/Tajawal-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Tajawal-Bold.ttf
+  #         weight: 700

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- الإعدادات الحالية -->
+    
+    <!-- إضافة أذونات iOS -->
+    <key>NSCameraUsageDescription</key>
+    <string>يحتاج التطبيق إلى الوصول إلى الكاميرا لالتقاط صورة شخصية للملف الشخصي</string>
+    
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>يحتاج التطبيق إلى الوصول إلى معرض الصور لاختيار صورة شخصية للملف الشخصي</string>
+    
+    <key>NSMicrophoneUsageDescription</key>
+    <string>يحتاج التطبيق إلى الوصول إلى الميكروفون لتسجيل الفيديوهات التعليمية</string>
+</dict>
+</plist>
